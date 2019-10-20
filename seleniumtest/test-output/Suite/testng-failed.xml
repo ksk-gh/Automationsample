@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browsername" value="chrome"/>
+  <test thread-count="2" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="Oakwood.seleniumtest.OakWoodTest">
+        <methods>
+          <include name="startApp" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Oakwood.seleniumtest.OakWoodTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
